@@ -16,4 +16,4 @@ set Sec=%DateTime:~12,2%
 
 set BackupName= index__%Yr%-%Mon%-%Day%_(%Hr%-%Min%-%Sec%)
 
-xcopy /e /I "C:\Users\msindhuja\eclipse-workspace2\FormBased\test-output\html\index.html" "C:\Users\msindhuja\eclipse-workspace2\FormBased\test-output\%BackupName%.html"
+echo F|xcopy /e "C:\Users\msindhuja\eclipse-workspace2\FormBased\test-output\html\index.html" "C:\Users\msindhuja\eclipse-workspace2\FormBased\test-output\%BackupName%.html"
